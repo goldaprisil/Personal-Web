@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.header .menu a{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+.header .menu a:hover{
+    font-weight: 900;
+    font-size: 10;
+    transition: .5s ease-in-out;
+    background-color:rgb(162, 200, 224);
+    border-radius: 10px;
+}
+.medsos img{
+    border-radius: 10px;
+}
+.hero{
+    padding: 8% 0;
+    background-image: url("https://i.pinimg.com/564x/f2/4a/40/f24a403540988f5333b2efa450852ef2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.hero-content h2{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 55px;
+}
+.hero-content p{
+    font-size: 20px;
+    line-height: 33px;
+    font-weight: 300px;
+}
+.hero-img img{
+    border-radius: 180px;
+}
+
+.hero-content img{
+    border-radius: 100px;
+}
